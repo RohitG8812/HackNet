@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url(/25336.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#nav {
+    font-family: "VT323", monospace;
+    position: relative;
+    background-color: black;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px 50px;
+}
+
+#nav a {
+    color: #39ff14;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#nav #ncenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+}
+
+#nright {
+    display: flex;
+    gap: 30px;
+}
+
+.home {
+    color: white;
+}
+
+.heading {
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
+    color: #39ff14;
+}
+
+.main {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    height: 55vh;
+    width: 50vw;
+    margin: 5% auto;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#content, #content2, #content3, #content4, #content5, #content6, #content7, #contentT, #contentS, #content8{
+    color: greenyellow;
+    padding: 9px;
+  }
+  
+  #contentT{
+    color: red;
+  }
+  #contentS{
+    color: coral;
+  }
+  #content8{
+    color: #39ff14;
+  }
+  
